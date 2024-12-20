@@ -1,0 +1,83 @@
+.item{
+    table{
+        width: 100%;
+        .head{
+            th{
+            border-bottom: 1px solid #e7e7e7;
+                padding: 10px;
+                font-size: 14px;
+                font-weight: 600;
+                color: #212529;
+                text-transform: uppercase;
+                text-align: left;
+            
+
+        }
+       }
+       .body{
+        td{
+            padding: 10px;
+        }
+        .produuct{
+            display: flex;
+            gap: .9em;
+            align-items: center;
+            padding-top:1em;
+            .productImage{
+                width: 10em;
+                height: 10em;
+                
+                img{
+                    height: 100%;
+                    // width: 100%;
+                }
+
+            }
+            span{
+                // display: table-cell;
+                    // vertical-align: middle;
+                    // width: 99%;
+                
+                font-size: 14px;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                    white-space: normal;
+                    color: #222529;
+
+            }
+        }
+        .price{
+            font-weight: 400;
+                color: #69696B;
+                font-size: .8125rem;
+        }
+        .quantity{
+            .counter-container{
+                display: flex;
+                // align-items: center;
+                font-size: 14px;
+                #quantity{
+                    border-block: solid 1px #e7e7e7;
+                    height: 3rem;
+                    width: 44px;
+                    text-align: center;
+                    padding-top: .9rem;
+
+
+                }
+                button{
+                    height: 3rem;
+                        line-height: 3rem;
+                        width: 30px;
+                        border: solid 1px #e7e7e7;
+                        color: #222529;
+                        background-color: transparent;
+                }
+            }
+
+        }
+        .subtotal{
+        }
+       }
+    }
+}

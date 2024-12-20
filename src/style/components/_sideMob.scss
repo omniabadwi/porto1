@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+    .sidemob {
+        position: relative;
+        transition: left 0.3s ease;
+    }
+    
+    .mobile-menu {
+        display: block;
+        .mobile-active.activeee {
+              left: 0;
+            }
+
+    .mobile-active {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      
+      left: -380px;
+      width: 380px;
+      height: 100vh;
+      background-color: #f6f6f6;
+      transition: left 0.3s ease;
+      overflow: auto;
+
+      .head {
+        display: flex;
+        text-transform: capitalize;
+        font-weight: 400;
+        justify-content: space-between;
+        
+        color: white;
+        
+        .Menu {
+            background: #f6f6f6;
+            
+            button {
+              font-size: 1.3em;
+           
+            padding: 2em;
+            border: #f6f6f6;
+
+            a {
+              display: flex;
+              gap: 0.25em;
+              align-items: center;
+
+              svg {
+                width: 2em;
+                height: 2em;
+              }
+            }
+          }
+        }
+
+        .Acco {
+          // background: #000;
+          width: 100%;
+
+          button {
+            font-size: 1.3em;
+            padding: 2em;
+            background: #222529;
+
+            a {
+              color: white;
+              
+            }
+
+            
+          }
+        }
+
+        .setting {
+         
+            width: 100%;
+            
+            button {
+                font-size: 1.3em;
+              padding: 2em;
+            // border: 0;
+              background: #222529;
+              a {
+                color: white;
+
+              }
+
+            
+          }
+        }
+      }
+      li{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        border-bottom:1px solid #e7e7e7; ;
+        color: #777!important;
+        text-transform: uppercase;
+        a{
+            color: #777!important;
+        }
+      }
+    }
+  }
+}

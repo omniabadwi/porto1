@@ -1,0 +1,38 @@
+/* Sidebar container */
+.sidebar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 23em;
+    height: 100vh;
+    background-color: white;
+    color: #777777;
+    padding: 20px;
+    
+    
+    font-size: 14px;
+       
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+           
+            font-weight: 400;
+            ul{
+
+                border-bottom: 1px solid #ddd;
+                li{
+                    line-height: 24px;
+                    margin-bottom: .05rem;
+                    border-top: 1px solid #ddd;
+                    padding: 8px 18px 8px 15px;
+                    text-transform: capitalize;
+                }
+            }
+    
+    
+}
+
+
+

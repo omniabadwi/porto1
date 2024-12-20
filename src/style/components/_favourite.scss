@@ -1,0 +1,111 @@
+.favourite {
+  display: flex;
+  gap: 1em;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    h3 {
+        text-align: left;
+        color: #777;
+        font-size: 20px;
+            margin: 0 0 15px;
+            font-weight: 400;
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        width: 17em;
+.image {
+    margin-bottom: .5em;
+        img {
+            width: 100%;
+        }
+    }
+
+    .des {
+        
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        h6 {
+            font-size: .9375rem;
+                font-weight: 400;
+                line-height: 1.35;
+                letter-spacing: -.01em;
+                margin-bottom: .45rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #222529;
+                display: block;
+        }
+
+        p {
+            margin: 0 0 1.25rem;
+                line-height: 24px;
+        }
+    }
+    }
+    
+    textarea {
+        padding: 1em;
+        width: 18em;
+        height: 4em;
+        font-size: .8em;
+        border: 1px solid #e7e7e7;
+        color: #f5f3f3;
+    }
+    .cart {
+      padding: 0.6em;
+
+      button {
+        color: #fff;
+        height: 2.5rem;
+        padding: 0 1em;
+        text-transform: uppercase;
+        font-size: 1em;
+        letter-spacing: -0.015em;
+        font-weight: 700;
+        line-height: 3rem;
+        background: black;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+
+        svg {
+          font-size: 1.3em;
+        }
+      }
+    }
+
+    .edits {
+      display: flex;
+      gap: 1em;
+      font-size: 1em;
+    }
+    .buttonss {
+      display: flex;
+      gap: 1em;
+      button {
+        color: #fff;
+        height: 3rem;
+        padding: 0 1em;
+        text-transform: uppercase;
+        font-size: 1em;
+        letter-spacing: -0.015em;
+        font-weight: 700;
+        line-height: 3rem;
+        background: black;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+
+        svg {
+          font-size: 1.3em;
+        }
+      }
+    }
+  }
+}
